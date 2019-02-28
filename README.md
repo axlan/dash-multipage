@@ -21,7 +21,7 @@ As a minor note, there is also a set of classes that override dash's Input, Outp
 These are merely a convenience wrapper to allow them to be initialized directly from the
 components.
 
-#Example
+# Example
 An example app is found in example/
 
 To run with flask:
