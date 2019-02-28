@@ -8,6 +8,8 @@ The basic structure is to create an instance of dash_multipage.MultiPageDashCont
 This adds the layout and callbacks to the dash app passed in as an argument. It provides the
 nav buttons on top, and handles selecting the page based on the URL.
 
+It expects that the app will load Bootstrap CSS for pretty navigation tabs.
+
 Each page is an implementation of dash_multipage.ControllerBase. The implementation gives the
 link information, layout and callbacks.
 
