@@ -144,8 +144,7 @@ class URLArgs:
                             pass
             except KeyError:
                 pass
-            if value is not None:
-                setattr(component, value_name, value)
+            setattr(component, value_name, value)
 
     def register_callbacks(self, app: Dash) -> None:
         """ Add the callbacks for the components and link box to the app
